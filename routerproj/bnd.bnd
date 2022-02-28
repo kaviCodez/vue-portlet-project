@@ -1,0 +1,13 @@
+Bundle-Name: routerproj
+Bundle-SymbolicName: routerproj
+Bundle-Version: 1.0.0
+Export-Package: routerproj.constants
+Web-ContextPath: /routerproj
+-jsp: *.jsp,*.jspf,*.jspx
+-metatype: *
+-plugin.jsp: com.liferay.ant.bnd.jsp.JspAnalyzerPlugin
+-plugin.metatype: com.liferay.ant.bnd.metatype.MetatypePlugin
+-plugin.npm: com.liferay.ant.bnd.npm.NpmAnalyzerPlugin
+-plugin.resourcebundle: com.liferay.ant.bnd.resource.bundle.ResourceBundleLoaderAnalyzerPlugin
+-plugin.sass: com.liferay.ant.bnd.sass.SassAnalyzerPlugin
+-sass: *

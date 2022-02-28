@@ -1,0 +1,23 @@
+{
+	"name": "routerproj",
+	"dependencies": {
+		"core-js": "^3.8.3",
+		"vue": "2.6.13",
+		"vue-router": "^4.0.3"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-preset-env": "^1.7.0",
+		"liferay-npm-bundler": "2.18.2",
+		"@vue/cli-service": "4.3.1",
+		"@vue/cli-plugin-babel": "4.3.1",
+		"@vue/cli-plugin-router": "4.3.1",
+		"vue-template-compiler": "2.6.13",
+		"vue-cli-plugin-vuetify": "^2.0.5"
+	},
+	"main": "router/index.js",
+	"scripts": {
+		"build": "vue-cli-service build --dest build/resources/main/META-INF/resources/lib --target lib --name index src/main/resources/META-INF/resources/**/*.js && liferay-npm-bundler"
+	},
+	"version": "1.0.0"
+}
